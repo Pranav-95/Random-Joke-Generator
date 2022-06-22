@@ -1,6 +1,6 @@
 # Random-Joke-Generator
 
-## **Deployed link:** https://chirantanbanik.github.io/Random-Joke-Generator/
+## **You can check the App from:** [here](https://chirantanbanik.github.io/Random-Joke-Generator/)
 
 A static web page which is made with the help of HTML, CSS and Javascript. The jokes are generated with the help of an API call. 
 
