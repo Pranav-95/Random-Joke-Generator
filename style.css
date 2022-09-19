@@ -1,17 +1,17 @@
-@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');  /* import font */
 
 *{
-     box-sizing: border-box
+     box-sizing: border-box  /* padding & border are in width & height */
 
 }
 
 body {
-    background-color: aquamarine;
+    background-color: mediumturquoise;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
+    display: flex;    /* it will center allign the items */
+    align-items: center;  /* it will also center allign the elements */
+    justify-content: center; /* it will center allign, otherwise it will be in left side */
+    height: 100vh;   /* what will be the height */
     margin: 0;
 
 
@@ -20,18 +20,18 @@ body {
 
 .container {
     background-color: azure;
-    border-radius: 10px;
+    border-radius: 10px;  /* the curve in the corners */
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0,0, 0, 0, 0.1);
-    padding: 50px 20px;
+    padding: 50px 20px;  /* what will be the size of the white box */ 
     max-width: 100%;
-    width: 800px;
+    width: 700px;  
     text-align: center;
 }
 
 h3 {
-  margin: 0;
-  letter-spacing: 2px;
-  opacity: 0.5;
+  margin: 5;
+  letter-spacing: 4px;
+  opacity: 5;
 
 }
 
@@ -42,19 +42,19 @@ h3 {
     max-width: 600px;
 }
 
-.btn {
+.btn { 
   background-color: #9f68e0;
   border: 0;
   border-radius: 10px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0,0, 0, 0, 0.1);
   color: #fff;
-  cursor: pointer;
+  cursor: pointer;  /* cursor will change */
   font-size: 16px;
   padding: 14px 40px;
 }
 
 .btn:active{
-  transform: scale(0.98);
+  transform: scale(0.98);   /* it will shrink while we click the button */
 }
 
 .btn:focus {
