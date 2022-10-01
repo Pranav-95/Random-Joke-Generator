@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: mediumturquoise;
+    background-color: #C7F2A4;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     display: flex;    /* it will center allign the items */
     align-items: center;  /* it will also center allign the elements */
